@@ -37,5 +37,5 @@ for _ in range(numberOfTry):
 
 if not isCorrect:
     print("This time, you couldn't figure the random number out, but maybe next time.")
-    print("The answer was " + ranInt)
+    print("The answer was " + str(ranInt))
     print("If you want, please try again.")
